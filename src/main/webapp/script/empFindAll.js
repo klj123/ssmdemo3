@@ -6,7 +6,7 @@ function findAll() {
     //2.参数格式校验
     //3.返送Ajax
     $.ajax({
-        url: "http://localhost:8080/findAll.do",
+        url: bath_path+"/findAll.do",
         type: "post",
         success: function (result) {
             if (result.status == 0){
